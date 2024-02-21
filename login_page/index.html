@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zomato Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="my-form">
+        <div class="login-welcome-row">
+             <h1>&nbsp; Welcome to Zomato !</h1> 
+             <img src="assets/local_pizza_FILL0_wght400_GRAD0_opsz24.png" alt="logo" >
+             <img src="assets/restaurant_FILL0_wght400_GRAD0_opsz24.png" alt="logo" >
+             <br>
+             <p>Please enter your details!</p>
+        </div>
+        <div class="input__wrapper">
+            <input 
+                type="text" id="name" name="name" placeholder=" " class="input__field" required>
+            <label for="name" class="input__label">Name :</label>
+            
+        </div>
+        <div class="input__wrapper">
+            <input id="password" type="password" placeholder=" " name="Password" class="input__field">
+            <label for="password" class="input__label" >
+                Password :
+            </label> 
+        </div>
+        <div class="input__wrapper">
+            <input 
+                type="text" id="address" name="address" placeholder=" " class="input__field" required>
+            <label for="address" class="input__label">Address :</label>
+            
+        </div>
+        <button type="submit" class="my-form__button">
+            Log in
+        </button>
+        <div class="socials-row">
+            <a href="#" title="Use Google">
+                <img src="assets/google.png" alt="Google">
+                Log in with Google
+            </a>
+        </div>
+        <div class="my-form__actions">
+            <div class="my-form__row">
+                 <span>Don't have an account?</span>
+                 <a title="Create Account" href="#">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
