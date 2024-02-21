@@ -12,6 +12,5 @@ This is a basic front-end clone of Zomato, a popular food delivery platform. Ple
 - Frontend: HTML, CSS, JavaScript
 
 ## Getting Started
-1. Clone the repository:
+1. Clone the repository (by going into your command prompt/terminal paste this) :
    git clone https://github.com/rajrasane04/Zomato_Clone.git
-   cd Zomato_Clone
